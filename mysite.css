@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+   font-size: 10px;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: lightgray
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p{
+    margin-bottom: 20px;
+    margin: 20px;
+    line-height: 1.5;
+}
+
+main{
+    height: 100vh;
+}
+
+.site-header{
+    background-color: darkgray;
+    width: 25rem;
+    display:flex;
+    flex-direction: column; 
+    
+}
+
+.title{
+    text-align: center;
+}
+
+.site-header h1{
+   color: whitesmoke;
+   font-size: 2rem;
+}
+
+.site-header .title{
+    color: white;
+    font-size: 3.5rem;
+   
+}
+
+.site-header img{
+    width: 20rem;
+    border-radius: 50%;
+    border: 0.5rem solid yellow
+    
+}
+
+.site-header .location{
+    text-align: center;
+    font-size: 1.6rem;
+    color: white;
+}
+
+.site-header .location i{
+    margin-right: 10px;
+}
+
+.site-header .location:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.service{
+    border:solid;
+    margin: 00.5rem;
+    padding-left: 00.5rem;
+    border-radius:5px;
+    margin-left: 25px;
+    list-style-position: inside;
+    background-color: darkgray;
+    overflow: hidden;
+}
+
+.service p{
+    
+    font-size: 1.5rem;
+}
+
+.service li{
+    font-weight: light;
+    font-family: 'quicksand' , sans-serif;
+    list-style-position: none;
+    list-style: square  
+}
+
+.service h3{
+    margin-top: 10px;
+    font-size: 25px;
+    text-shadow: 2px,2px, whitesmoke;
+    text-decoration: underline;
+}
+
+.service a:hover{
+    color:yellow;
+    text-decoration: underline;
+}
+
+.service a{
+    color: blue;
+    padding-left: 1.7rem;
+    font-size: small;
+}
+
+.main-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    width:100%
+}
+
+.site-header .menu a{
+    display: block;
+    padding:1rem;
+    font-size: 2rem;
+    background-color: #222222;
+    color:white;
+    border-radius: 5rem;
+    margin:1.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.container {
+    font-size: medium;
+}
+
+footer a{
+    display: inline-flex; 
+    flex-direction: row;
+    font-size: 100 px
+
+}
+
+footer{
+    border:solid;
+    margin: 00.5rem;
+    border-radius:5px;
+    padding: 10px;
+    margin-left: 25px;
+    list-style-position: inside;
+    width: auto;
+    justify-content: baseline;
+    justify-content: space-evenly;
+    text-justify: auto;
+    text-align: center;
+    font-size: large;
+    background-color: darkgray; 
+}
